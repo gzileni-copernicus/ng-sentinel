@@ -40,7 +40,7 @@ export class SentinelService {
   }
 
   public data(params: any): Observable<any> {
-    let url: string = `${this.configSvc.data.prefix}?id=${id}`;
+    let url: string = `${this.configSvc.data.prefix}?id=${params.id}`;
 
   }
 
